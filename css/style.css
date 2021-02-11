@@ -1,0 +1,155 @@
+/* public Style  */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f6f6f8;
+}
+
+.container {
+  width: 950px;
+  margin: auto;
+}
+
+.header {
+  background: #3b5998;
+  width: 100%;
+  height: 85px;
+}
+
+.header__logo {
+  width: 50%;
+  float: left;
+}
+
+h2 {
+  color: #fff;
+  padding-top: 1.9rem;
+  font-size: 2.2rem;
+}
+
+.header__login {
+  width: 50%;
+  float: left;
+  color: #fff;
+  padding-top: 25px;
+}
+
+.user {
+  float: left;
+  padding-right: 15px;
+}
+
+label {
+  font-size: 14px;
+}
+
+a {
+  font-size: 11px;
+  color: #d6dbe4;
+  text-decoration: none;
+}
+
+input[type="submit"] {
+  color: #fff;
+  background: #283f72;
+  margin-top: 18px;
+  border: 0;
+  width: 45px;
+  height: 20px;
+}
+
+/*  Content */
+
+.content {
+  width: 100%;
+}
+
+.content__img {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.content__form {
+  width: 50%;
+  float: right;
+}
+
+p {
+  font-size: 20px;
+  color: #3b5998;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+span {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content__form h2 {
+  color: #000;
+}
+
+.content__form span {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.content__input-name {
+  height: 5px;
+  width: 202px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 15px;
+  border: none;
+  border: 1px solid #ddd;
+  padding: 15px 0px 15px 7px;
+  outline: 0;
+}
+
+.content__input-itme {
+  display: block;
+  width: 90%;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 15px;
+  border: none;
+  border: 1px solid #ddd;
+  padding: 10px 0px 10px 7px;
+  margin: 10px 0px 0px 0px;
+  outline: 0;
+}
+
+.content__input-link {
+  color: #3b5998;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.content__input-p {
+  font-size: 15px;
+  font-weight: bold;
+  color: #aaa;
+}
+
+.content__input-btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 7px;
+  background: #619e4e;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
